@@ -1,0 +1,50 @@
+class Scratch {
+    public static void main(String[] args) {
+        //Ejercicio 1
+        int numerolf = -10;
+        if (numerolf < 0){
+            System.out.println(numerolf + " Es negativo");
+        } else if (numerolf > 0){
+            System.out.println(numerolf + " Es positivo");
+        } else {
+            System.out.println(numerolf + " Es 0(cero)");
+        }
+
+        //Ejercicio 2
+        int numeroWhile = 0;
+        while (numeroWhile < 3){
+            System.out.println(numeroWhile);
+            numeroWhile++;
+        }
+
+        //Ejercicio 3
+        do {
+            System.out.println(numeroWhile);
+            numeroWhile++;
+        } while (numeroWhile < 1);
+        
+        //Ejercicio 4
+        for (int numeroFor = 0; numeroFor<=3; numeroFor++){
+            System.out.println(numeroFor);
+        }
+        
+        //Ejercicio 5
+        String estacion = "Primavera";
+        switch (estacion){
+            case "Verano":
+                System.out.println("Es verano");
+                break;
+            case "Otoño":
+                System.out.println("Es otonio");
+                break;
+            case "Invierno":
+                System.out.println("Es invierno");
+                break;
+            case "Primavera":
+                System.out.println("Es primavera");
+                break;
+            default:
+                System.out.println("No es una estacion");
+        }
+    }
+}
