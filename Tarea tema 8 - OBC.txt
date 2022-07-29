@@ -3,8 +3,8 @@ public class Main {
         Persona person = new Persona();
 
         person.setEdad(22);
-        person.setNombre("Cami");
-        person.setTelefono(571252);
+        person.setNombre("Camix");
+        person.setTelefono(12345678);
 
         System.out.println("Nombre: " + person.getNombre());
         System.out.println("Edad: " + person.getEdad() + " años.");
